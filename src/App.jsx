@@ -1,5 +1,11 @@
-const App = () => {
-  return( <h1>Hello world</h1>);
-};
+import Hello from "./components/Hello"
+function App() {
+  return (
+    <>
+    <h1>Greetings</h1>
+    <Hello/>
+    </>
+  )
+}
 
-export default App;
+export default App
