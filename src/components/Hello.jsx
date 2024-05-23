@@ -1,5 +1,5 @@
-const Hello = () => {
-  return <p>HELLO WORLD!</p>;
+const Hello = (data) => {
+  return <p>HELLO {data.name}</p>;
 };
 
 export default Hello
