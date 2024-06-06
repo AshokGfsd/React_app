@@ -1,0 +1,119 @@
+.popup {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-restore:hover {
+    width: 150px;
+
+}
+
+.btn-restore {
+    transition: width .2s;
+    color: green;
+    width: 70px;
+    overflow: hidden;
+}
+
+body {
+    background-color: aqua;
+}
+
+.popup-cont {
+    height: 350px;
+    width: 350px;
+    border-radius: 15px !important;
+    box-shadow: 4px 4px 6px;
+    padding-left: 10px !important;
+    background-color: aqua;
+}
+table{  
+    color: blueviolet;
+    margin-left: 10px !important;
+}
+
+.btn-div {
+    position: relative;
+    top: 5px;
+}
+
+button {
+    height: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.add-btn {
+    all: unset;
+    position: fixed;
+    bottom: 25px;
+    height: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    right: 25px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: aqua;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.add-btn:hover {
+    box-shadow: 3px 3px 4px white;
+    color: white;
+}
+
+.btn-del {
+    position: relative;
+    color: red;
+    left: 105px;
+}
+
+.btn-cancel {
+    position: relative;
+    color: red;
+    left: 135px;
+}
+
+.btn-update {
+    color: green;
+}
+
+.card {
+    /* height: 370px; */
+    width: 260px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 4px 4px 6px black;
+    background-color: black;
+    color: white;
+    margin: 5px 0px;
+
+}
+
+.gap1 {
+    position: relative;
+    left: 30px;
+    width: 220px;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+    color: red;
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    justify-content: space-around;
+
+}

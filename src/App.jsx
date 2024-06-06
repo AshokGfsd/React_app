@@ -1,12 +1,20 @@
-import B from "./components/B";
-import { NameProvider } from "./contexts/NameContext";
+import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
+import Todos, { loader as todosLoader } from "./components/Todos"
+import "./App.css";
 
-// 2. Wrap the component tree with the context provider
-
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Todos/>,
+    loader: todosLoader
+    // children:[{
+    //   path:"/",
+    //   element: <h1>hello</h1>
+    // }]
+  },
+]);
 const App = () => {
-
-    return (<div></div>
-    )
-}
+  return <RouterProvider router={router} />
+};
 
 export default App;
